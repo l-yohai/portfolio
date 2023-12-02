@@ -1,0 +1,508 @@
+baseURL: "https://l-yohai.github.io/portfolio"
+languageCode: "en-us"
+title: "Hugo Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: 
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    - identifier: gallery
+      name: 
+      title: Blog posts
+      url: /gallery
+      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Hugo Profile"
+  description: Text about my cool site
+  staticPath: "/portfolio/"  # The path to serve the static files from
+  favicon: "/portfolio/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    menus:
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Yohan Lee"
+    subtitle: "for Your Own Humanistic AI"
+    content: "Creating AI believing in infinite possibilities of problems solving."
+    image: /portfolio/images/hero.jpg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "/portfolio/yohan_231201.pdf"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/l-yohai
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/l-yohai
+        - icon: fas fa-blog
+          url: https://l-yohai.github.io
+      customIcons:
+        # - icon: /portfolio/images/fav.png
+        #   url: https://l-yohai.github.io
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: /portfolio/images/me.jpeg
+    content: |-
+      I am a research scientist (NLP) at Riiid, focusing on advancing large language models (LLMs).
+      Previously, I studied german linguistics and cognitive science at the Yonsei University.
+      My notable research achievement includes achieving 1st place in the Huggingface Open LLM Leaderboard.
+      My research interests involve a comprehensive exploration of instruction tuning,
+      considering aspects like data quality, quantity, diversity, and model scale, efficiency, and objectives.
+      As a passionate professional, I am committed to continually contributing to the future of AI and NLP.
+
+
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "Python"
+        - "PyTorch"
+        - "Huggingface"
+        - "Deepspeed"
+        - "Flash Attention"
+        - "Parallelism(DP/TP/ZeRO)"
+        - "Quantization"
+        - "PEFT"
+        - "Offloading"
+
+  # Experience
+  experience:
+    enable: true
+    title: "Education"
+    items:
+      - job: "Bachelor of Arts in German Language and Literature, Cognitive Science"
+        company: "Yonsei University"
+        companyUrl: "https://yonsei.ac.kr"
+        date: "Mar 2015 - Feb 2022"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          I received an A+(4.3/4.3) in the following courses:
+          - Software Programming
+          - Understanding and Utilization of Artificial Intelligence
+          - Digital Language Data and Humanities
+          - Mathematics and Programming
+          - Machine Learning and its Applications
+          - ... and more
+
+          Extracurricular Activities
+            - Presidents of the Piano club in Yonsei University.
+              - Organized and led two large-scale concerts, showcasing musical talents and collaborative efforts.
+              - Initiated and conducted a special concert at Severance Hospital, offering performances dedicated to patients, demonstrating community involvement and leadership skills.
+      # - job: "Research Scientist (NLP)"
+      #   company: "Riiid"
+      #   companyUrl: "https://riiid.com"
+      #   date: "Jul 2023 - Dec 2023"
+      #   featuredLink:
+      #     enable: true
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   content: |
+      #     I am currently working as a research scientist (NLP) at Riiid in Seoul, Korea. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+  # Education
+  education:
+    enable: true
+    title: "Experiences"
+    index: false
+    items:
+      - title: "Research Scientist (NLP)"
+        school:
+          name: "Riiid"
+          url: "https://riiid.com"
+        date: "Jul 2023 - Present"
+        # GPA: "3.9 out of 5.0"
+        content: |-
+          Conducting Research on Large Language Models for Education
+          - Compete on the Huggingface Open LLM Leaderboard, achieving 1st place on Oct, 2023
+          - Explore the effects of instruction tuning from data (quantity, quality, diversity) and model (scale, efficiency, objective) perspectives 
+          - Implement diverse optimization techniques (ZeRO, FSDP, and FlashAttention) for training/inference with single 8xA100 machine
+
+          Automated Essay Scoring
+          - Achieve state‐of‐the‐art on public essay scoring benchmarks
+          - Conduct “Bar exam” scoring which performs better than GPT‐4
+        featuredLink:
+          enable: false
+          name: "1st rank at Huggingface Open LLM Leaderboard"
+          url: "https://finance.yahoo.com/news/riiids-ai-model-ranks-1-135800579.html"
+      - title: "NLP Engineer"
+        school:
+          name: "TUNiB"
+          url: "https://tunib.ai"
+        date: "Dec 2021 - Feb 2023"
+        content: |-
+          Korean Open‐domain Chatbot Service
+          - Directed dialogue data collection and quality filtering using advanced LLMs
+          - Developed an in‐house Korean LM for multi‐persona chatbot with self‐collected datasets
+          - Operated a Kakaotalk‐based chatbot service
+
+          AI Grand Challenge: Policy Support AI
+          - Awarded Ministry of Science and ICT Minister’s Award
+          - Orchestrated TableQA data collection with policy domain experts
+          - Developed continual learning framework with OCR‐based parsing and additional table data
+          - Developed an integrated QA system for processing texts, tables, and charts
+        featuredLink:
+          enable: false
+          name: "Awarded Ministry of Science and ICT Minister’s Award"
+          url: "https://www.mk.co.kr/news/it/10609550"
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: CJ Logistics, 2023 Future Tech Challenge
+        content: Winner of the unprocessed english address translation task.
+        url: https://www.cjlogistics.com/ko/newsroom/news/NR_00001097
+        # image: /portfolio/images/achievment.jpg
+      - title: "IITP, AI Grand Challenge: Policy Support AI"
+        content: "3rd Place, Ministry of Science and ICT Minister's Award, 2 billion KRW in support funding."
+        url: https://www.mk.co.kr/news/it/10609550
+      - title: SKKU, 3rd Annual University Student AI x Bookathon
+        content: Winner of the essay generation task.
+      - title: Naver Connect, Open Domain Question Answering Competition
+        content: Gold Medal (Nov, 2021)
+      - title: Naver Connect, Relation Extraction Competition
+        content: Silver Medal (Oct, 2021)
+      - title: Naver Connect, Mask Image Classification Competition
+        content: Silver Medal (Sep, 2021)
+      - title: Yonsei Univ, German Language and Literature Department
+        content: Scholarship (Aug, 2019)
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Story Completion Competition
+        content: Instruction fine-tuned (korean 13B lm) with diverse data augmentation, achieving 2nd place on public/private leaderboard in 3 days
+        image: /portfolio/images/story_completion_competition_thumbnail.png
+        featured:
+          # name: leaderboard
+          # link: https://corpus.korean.go.kr/taskOrdtm/taskLeaderBoard.do?taskOrdtmId=102&clCd=END_TASK&subMenuId=sub04
+        badges:
+          - "python"
+          - "pytorch"
+        links:
+          # - icon: fa fa-envelope
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          # - icon: fab fa-github
+          #   url: https://github.com/gurusabarish/hugo-profile
+          # - icon: fab fa-twitter
+          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - icon: fas fa-external-link-alt
+            url: https://corpus.korean.go.kr/taskOrdtm/taskLeaderBoard.do?taskOrdtmId=102&clCd=END_TASK&subMenuId=sub04
+
+      - title: Achieved SOTA in KLUE Benchmark
+        content: |
+          - Implemented R‐BERT and Retrospective Reader models, and enhanced their structures and learning methods
+          - Achieved SOTA in TC, STS, RE, MRC, NLI tasks
+        image: /portfolio/images/klue_thumbnail.png
+        featured:
+          # name: Demo
+          # link: https://django-converter.herokuapp.com
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/LostCow/KLUE
+
+      - title: Open Domain Question Answering Competition (Gold Medal)
+        content: |-
+          - Improved top-1 accuracy of document retrieval from 32% to 78% by hybrid retrieval techniques
+          - Improved EM score of question answering from 62.7 to 79.9 by effective methods
+        image: /portfolio/images/mrc_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/l-yohai/Korean-MRC-Open-Domain-Question-Answering
+          - icon: fas fa-blog
+            url: https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/
+
+      - title: Relation Extraction Competition (Silver Medal)
+        content: |-
+          - Trained custom embeddings, layers, and loss function with diverse augmented dataset
+        image: /portfolio/images/re_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/l-yohai/korean-entity-relation-extraction
+          - icon: fas fa-blog
+            url: https://cheonggyemountain-sherpa.github.io/KLUE_RE/
+
+      - title: Image Classification Competition Competition (Silver Medal)
+        content: |-
+          - Utilized multi-task learning and test time augmentation techniques
+        image: /portfolio/images/maskcompetition_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/l-yohai/Mask-Image-Classification
+          - icon: fas fa-blog
+            url: https://github.com/l-yohai/Boostcamp-AI-Tech/blob/main/pstage_1/planning_guide.md
+
+      - title: Korean College Scholastic Ability Test (CSAT)
+        content: |-
+          - Compared the performance of various LLMs in solving the 2024 CSAT
+        image: /portfolio/images/csat_thumbnail.jpeg
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/l-yohai/suneung
+
+      - title: Daily Papers
+        content: |-
+          - Developed a tool for auto-translating and summarizing Huggingface's daily papers into Korean using ChatGPT
+        image: /portfolio/images/daily_papers_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/l-yohai/daily_papers_ko
+
+      - title: PFP Story Generation
+        content: |-
+          - Completed the story for 5,000 pfp characters using GPT-3
+        image: /portfolio/images/savetheweb3_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fas fa-external-link-alt
+            url: https://opensea.io/collection/savetheweb3
+
+      - title: "Look, Attend, and Generate Poem"
+        content: |-
+          - Developed a web service for generating poetry from user-uploaded photos
+        image: /portfolio/images/look_attend_and_generate_poem_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/boostcampaitech2/final-project-level3-nlp-08
+
+      - title: Movie Review Rating Service
+        content: |-
+          - Developed a web service for auto-rating and archiving key movie reviews
+        image: /portfolio/images/movie_review_thumbnail.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Gaepodong/Your-True-Review
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: yohan9612@naver.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      # github: https://github.com
+      # linkedin: https://linkedin.com
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: ""
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

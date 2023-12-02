@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hugo Profile</title>
+    <link>https://l-yohai.github.io/portfolio/tags/</link>
+    <description>Recent content in Tags on Hugo Profile</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Dec 2022 19:53:33 +0530</lastBuildDate>
+    <atom:link href="https://l-yohai.github.io/portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>example</title>
+      <link>https://l-yohai.github.io/portfolio/tags/example/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown syntax</title>
+      <link>https://l-yohai.github.io/portfolio/tags/markdown-syntax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/markdown-syntax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathjax</title>
+      <link>https://l-yohai.github.io/portfolio/tags/mathjax/</link>
+      <pubDate>Fri, 09 Dec 2022 19:53:33 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ipsum</title>
+      <link>https://l-yohai.github.io/portfolio/tags/ipsum/</link>
+      <pubDate>Mon, 20 Jun 2022 22:00:00 +0000</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/ipsum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lorem</title>
+      <link>https://l-yohai.github.io/portfolio/tags/lorem/</link>
+      <pubDate>Mon, 20 Jun 2022 22:00:00 +0000</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/lorem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample</title>
+      <link>https://l-yohai.github.io/portfolio/tags/sample/</link>
+      <pubDate>Sat, 03 Apr 2021 23:29:21 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/sample/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emoji support</title>
+      <link>https://l-yohai.github.io/portfolio/tags/emoji-support/</link>
+      <pubDate>Sat, 03 Apr 2021 22:53:58 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/emoji-support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Placeholder text</title>
+      <link>https://l-yohai.github.io/portfolio/tags/placeholder-text/</link>
+      <pubDate>Sat, 03 Apr 2021 22:41:10 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/placeholder-text/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rich content</title>
+      <link>https://l-yohai.github.io/portfolio/tags/rich-content/</link>
+      <pubDate>Sat, 03 Apr 2021 19:53:33 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/tags/rich-content/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
