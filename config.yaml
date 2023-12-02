@@ -1,7 +1,7 @@
 baseURL: "https://l-yohai.github.io/portfolio"
 languageCode: "en-us"
-title: "Hugo Profile"
-theme: hugo-profile
+title: "Portfolio"
+theme: profile
 
 outputs:
   home:
