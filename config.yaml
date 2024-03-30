@@ -155,7 +155,7 @@ params:
     title: "About Me"
     image: /portfolio/images/me.jpeg
     content: |-
-      I am a research scientist (NLP) at Riiid, focusing on advancing large language models (LLMs).
+      I am a AI research engineer (NLP Specialist) at WRTN Technologies, focusing on advancing large language models (LLMs).
       Previously, I studied german linguistics and cognitive science at the Yonsei University.
       My notable research achievement includes achieving 1st place in the Huggingface Open LLM Leaderboard.
       My research interests involve a comprehensive exploration of instruction tuning,
@@ -222,11 +222,23 @@ params:
     title: "Experiences"
     index: false
     items:
+      - title: "AI Research Engineer (NLP Specialist)"
+        school:
+          name: "WRTN Technologies"
+          url: "https://wrtn.io/"
+        date: "Mar 2024 - Present"
+        # GPA: "3.9 out of 5.0"
+        content: |-
+          Conducting Research on LLM Agent Evaluation Benchmark
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
       - title: "Research Scientist (NLP)"
         school:
           name: "Riiid"
           url: "https://riiid.com"
-        date: "Jul 2023 - Present"
+        date: "Jul 2023 - Feb 2024"
         # GPA: "3.9 out of 5.0"
         content: |-
           Conducting Research on Large Language Models for Education
@@ -299,6 +311,7 @@ params:
         badges:
           - "python"
           - "pytorch"
+        modal: /portfolio/yohan_231201.pdf
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
@@ -331,8 +344,8 @@ params:
           - Improved EM score of question answering from 62.7 to 79.9 by effective methods
         image: /portfolio/images/mrc_thumbnail.png
         featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
+          name: Watch More
+          link: https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/
         badges:
           - "python"
           - "pytorch"
@@ -340,16 +353,16 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/l-yohai/Korean-MRC-Open-Domain-Question-Answering
-          - icon: fas fa-blog
-            url: https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/
+          # - icon: fas fa-blog
+          #   url: https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/
 
       - title: Relation Extraction Competition (Silver Medal)
         content: |-
           - Trained custom embeddings, layers, and loss function with diverse augmented dataset
         image: /portfolio/images/re_thumbnail.png
         featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
+          name: Watch More
+          link: https://cheonggyemountain-sherpa.github.io/KLUE_RE/
         badges:
           - "python"
           - "pytorch"
@@ -357,16 +370,16 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/l-yohai/korean-entity-relation-extraction
-          - icon: fas fa-blog
-            url: https://cheonggyemountain-sherpa.github.io/KLUE_RE/
+          # - icon: fas fa-blog
+          #   url: https://cheonggyemountain-sherpa.github.io/KLUE_RE/
 
       - title: Image Classification Competition Competition (Silver Medal)
         content: |-
           - Utilized multi-task learning and test time augmentation techniques
         image: /portfolio/images/maskcompetition_thumbnail.png
         featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
+          name: Watch More
+          link: https://l-yohai.github.io/AI-Competition-and-planning-guide/
         badges:
           - "python"
           - "pytorch"
@@ -374,8 +387,8 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/l-yohai/Mask-Image-Classification
-          - icon: fas fa-blog
-            url: https://github.com/l-yohai/Boostcamp-AI-Tech/blob/main/pstage_1/planning_guide.md
+          # - icon: fas fa-blog
+          #   url: https://github.com/l-yohai/Boostcamp-AI-Tech/blob/main/pstage_1/planning_guide.md
 
       - title: Korean College Scholastic Ability Test (CSAT)
         content: |-

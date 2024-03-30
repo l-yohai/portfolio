@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Portfolio</title>
+    <link>https://l-yohai.github.io/portfolio/posts/</link>
+    <description>Recent content in Posts on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Nov 2021 19:53:33 +0530</lastBuildDate>
+    <atom:link href="https://l-yohai.github.io/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Domain Question Answering Competition</title>
+      <link>https://l-yohai.github.io/portfolio/posts/klue-mrc/</link>
+      <pubDate>Wed, 10 Nov 2021 19:53:33 +0530</pubDate>
+      <guid>https://l-yohai.github.io/portfolio/posts/klue-mrc/</guid>
+      <description>Open Domain Question Answering Competition 약 4주가량 참여했던 P Stage 의 MRC - Open Domain Question Answering 대회를 Wrap up 하였습니다. 청계산 셰르파의 일원들과 두 번째 합을 맞추었고, 어설픈 점도 많았지만 어떤 마음가짐과 전략으로 대회에 임했으며 서로가 서로의 셰르파 로써 등반을 완료할 수 있었는지 저희의 경험을 나누고자 합니다.
+미흡한 점도 있었고, 여러 시행착오를 겪었지만 KLUE - RE 대회보다 2계단 상승한 3위를 달성할 수 있었습니다. 다양한 문제를 인식하고 해결하기 위한 아이디어를 수집한 뒤 결과적으로 구현하며 좋은 성과를 이루어낼 수 있었다는 점에서 팀원 모두가 많은 성장을 했다고 느낄 수 있었습니다.</description>
+    </item>
+  </channel>
+</rss>

@@ -599,7 +599,7 @@ Portfolio
             </div>
             
             <div class="col-sm-12 col-md-12 col-lg-8 content">
-                I am a research scientist (NLP) at Riiid, focusing on advancing large language models (LLMs).
+                I am a AI research engineer (NLP Specialist) at WRTN Technologies, focusing on advancing large language models (LLMs).
 Previously, I studied german linguistics and cognitive science at the Yonsei University.
 My notable research achievement includes achieving 1st place in the Huggingface Open LLM Leaderboard.
 My research interests involve a comprehensive exploration of instruction tuning,
@@ -725,7 +725,39 @@ As a passionate professional, I am committed to continually contributing to the 
                         <div class="card">
                             <div class="card-body">
                                 <div class="float-end">
-                                    <small>Jul 2023 - Present</small>
+                                    <small>Mar 2024 - Present</small>
+                                </div>
+                                <h5 class="card-title">AI Research Engineer (NLP Specialist)</h5>
+                                
+                                
+                                <a href="https://wrtn.io/" target="_blank">
+                                    <h6>
+                                    WRTN Technologies
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1 education-content">
+                                    Conducting Research on LLM Agent Evaluation Benchmark
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>Jul 2023 - Feb 2024</small>
                                 </div>
                                 <h5 class="card-title">Research Scientist (NLP)</h5>
                                 
@@ -809,6 +841,25 @@ As a passionate professional, I am committed to continually contributing to the 
     </div>
 </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<div class="modal fade" id="headModal" tabindex="-1" aria-labelledby="headModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl"> 
+    <div class="modal-content">
+    <div class="modal-header">
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <iframe id="pdfIframe" src="" style="width:100%; height:1200px;" frameborder="0"></iframe>
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+
 
 <section id="projects" class="py-5">
     <div class="container">
@@ -818,9 +869,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Story Completion Competition">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/story_completion_competition_thumbnail.png" alt="Story Completion Competition">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -851,9 +904,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Achieved SOTA in KLUE Benchmark">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/klue_thumbnail.png" alt="Achieved SOTA in KLUE Benchmark">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -888,9 +943,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Open Domain Question Answering Competition (Gold Medal)">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/mrc_thumbnail.png" alt="Open Domain Question Answering Competition (Gold Medal)">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -915,12 +972,21 @@ As a passionate professional, I am committed to continually contributing to the 
                             </a>
                         </span>
                         
-                        <span class="m-1 mx-2">
-                            <a href="https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/" target="_blank">
-                                <i class="fas fa-blog"></i>
+                        
+                        <span class="float-end">
+                            <script>
+                                document.querySelectorAll('.btn').forEach(head => {
+                                    head.addEventListener('click', function() {
+                                        const pdfUrl = this.getAttribute('data-pdf-url');
+                                        console.log(pdfUrl);
+                                        document.querySelector('#pdfIframe').src = pdfUrl;
+                                    });
+                                });
+                            </script>
+                            <a class="btn btn-sm" href="https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/" target="_blank" data-bs-toggle="modal" data-bs-target="#headModal" data-pdf-url="https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/">
+                                Watch More
                             </a>
                         </span>
-                        
                         
                     </div>
                     
@@ -930,9 +996,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Relation Extraction Competition (Silver Medal)">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/re_thumbnail.png" alt="Relation Extraction Competition (Silver Medal)">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -956,12 +1024,21 @@ As a passionate professional, I am committed to continually contributing to the 
                             </a>
                         </span>
                         
-                        <span class="m-1 mx-2">
-                            <a href="https://cheonggyemountain-sherpa.github.io/KLUE_RE/" target="_blank">
-                                <i class="fas fa-blog"></i>
+                        
+                        <span class="float-end">
+                            <script>
+                                document.querySelectorAll('.btn').forEach(head => {
+                                    head.addEventListener('click', function() {
+                                        const pdfUrl = this.getAttribute('data-pdf-url');
+                                        console.log(pdfUrl);
+                                        document.querySelector('#pdfIframe').src = pdfUrl;
+                                    });
+                                });
+                            </script>
+                            <a class="btn btn-sm" href="https://cheonggyemountain-sherpa.github.io/KLUE_RE/" target="_blank" data-bs-toggle="modal" data-bs-target="#headModal" data-pdf-url="https://cheonggyemountain-sherpa.github.io/KLUE_RE/">
+                                Watch More
                             </a>
                         </span>
-                        
                         
                     </div>
                     
@@ -971,9 +1048,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Image Classification Competition Competition (Silver Medal)">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/maskcompetition_thumbnail.png" alt="Image Classification Competition Competition (Silver Medal)">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -997,12 +1076,21 @@ As a passionate professional, I am committed to continually contributing to the 
                             </a>
                         </span>
                         
-                        <span class="m-1 mx-2">
-                            <a href="https://github.com/l-yohai/Boostcamp-AI-Tech/blob/main/pstage_1/planning_guide.md" target="_blank">
-                                <i class="fas fa-blog"></i>
+                        
+                        <span class="float-end">
+                            <script>
+                                document.querySelectorAll('.btn').forEach(head => {
+                                    head.addEventListener('click', function() {
+                                        const pdfUrl = this.getAttribute('data-pdf-url');
+                                        console.log(pdfUrl);
+                                        document.querySelector('#pdfIframe').src = pdfUrl;
+                                    });
+                                });
+                            </script>
+                            <a class="btn btn-sm" href="https://l-yohai.github.io/AI-Competition-and-planning-guide/" target="_blank" data-bs-toggle="modal" data-bs-target="#headModal" data-pdf-url="https://l-yohai.github.io/AI-Competition-and-planning-guide/">
+                                Watch More
                             </a>
                         </span>
-                        
                         
                     </div>
                     
@@ -1012,9 +1100,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Korean College Scholastic Ability Test (CSAT)">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/csat_thumbnail.jpeg" alt="Korean College Scholastic Ability Test (CSAT)">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -1047,9 +1137,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Daily Papers">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/daily_papers_thumbnail.png" alt="Daily Papers">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -1082,9 +1174,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="PFP Story Generation">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/savetheweb3_thumbnail.png" alt="PFP Story Generation">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -1117,9 +1211,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Look, Attend, and Generate Poem">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/look_attend_and_generate_poem_thumbnail.png" alt="Look, Attend, and Generate Poem">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -1152,9 +1248,11 @@ As a passionate professional, I am committed to continually contributing to the 
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="Movie Review Rating Service">
                     <div class="card-head">
+                    
                         <img class="card-img-top" style="aspect-ratio: 16 / 9;" src="/portfolio/images/movie_review_thumbnail.png" alt="Movie Review Rating Service">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                    
                         <div class="pb-2 bg-transparent">
                             
                             <span class="badge badge-secondary">python</span>
@@ -1357,7 +1455,7 @@ As a passionate professional, I am committed to continually contributing to the 
                         height="40px" width="40px">
                 </a>
             </div>
-            &copy; 2023  All Rights Reserved
+            &copy; 2024  All Rights Reserved
             <div class="text-secondary">
                 
                 

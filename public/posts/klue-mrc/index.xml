@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Domain Question Answering Competition on Portfolio</title>
+    <link>https://l-yohai.github.io/portfolio/posts/klue-mrc/</link>
+    <description>Recent content in Open Domain Question Answering Competition on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Nov 2021 19:53:33 +0530</lastBuildDate>
+    <atom:link href="https://l-yohai.github.io/portfolio/posts/klue-mrc/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
