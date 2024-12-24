@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/portfolio/yohan_240701.pdf"
+      url: "/portfolio/yohan_241224.pdf"
       download: false
       newPage: true
     socialLinks:
@@ -155,7 +155,7 @@ params:
     title: "About Me"
     image: /portfolio/images/me.jpeg
     content: |-
-      I am a AI research engineer (NLP Specialist) at WRTN Technologies, focusing on advancing large language models (LLMs).
+      I am a AI researcher at Coxwave, focusing on advancing large language models (LLMs).
       Previously, I studied german linguistics and cognitive science at the Yonsei University.
       My notable research achievement includes achieving 1st place in the Huggingface Open LLM Leaderboard.
       My research interests involve a comprehensive exploration of instruction tuning,
