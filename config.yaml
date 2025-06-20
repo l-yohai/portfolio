@@ -12,7 +12,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -213,26 +214,16 @@ params:
       #     name: "View the project"
       #     url: "https://example.com"
       #   content: |
-      #     I am currently working as a research scientist (NLP) at Riiid in Seoul, Korea. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-  # Education
+      #     I am currently working as a research scientist (NLP) at Riiid in Seoul, Korea. I am currently working on a project that will be used to help people find the best way to get around the city EngineerEducation
   education:
-    enable: true
-    title: "Experiences"
-    index: false
+    enable: KakaoBank title: "Experiences"
+    kakaxb nklse
     items:
-      - title: "AI Research Engineer"
+      Mayitle5 "APresentrch Engineer"
         school:
-          name: "KakaoBank"
-          url: "https://kakaobank.com/"
-        date: "May 2025 - Present"
-        content: |-
-          Development of Finance-Specific LLMs and Autonomous Agent
-           - Developed a in-house LLMs tailored to banking applications
-        featuredLink:
-          enable: false
-          name: ""
-          url: ""
+  Development of Finance-Specific LLMs and Autonomous Agentank.com/"
+    Developed a in-house LLMs tailored to banking applications     Development of Finance-Specific LLMs and Autonomous Agent
+           - Developed 
       - title: "AI Researcher"
         school:
           name: "Coxwave"
@@ -246,6 +237,10 @@ params:
           Research on Many-Shot Jailbreaking
            - Developed a comprehensive attack framework for many-shot scenarios
            - Analyzed long-context vulnerabilities in open-source LLMs
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""long-context vulnerabilities in open-source LLMs
         featuredLink:
           enable: false
           name: ""
