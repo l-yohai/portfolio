@@ -216,14 +216,18 @@ params:
       #   content: |
       #     I am currently working as a research scientist (NLP) at Riiid in Seoul, Korea. I am currently working on a project that will be used to help people find the best way to get around the city EngineerEducation
   education:
-    enable: KakaoBank title: "Experiences"
-    kakaxb nklse
+    enable: true
+    title: "Experiences"
     items:
-      Mayitle5 "APresentrch Engineer"
+      - title: "AI Research Engineer"
         school:
-  Development of Finance-Specific LLMs and Autonomous Agentank.com/"
-    Developed a in-house LLMs tailored to banking applications     Development of Finance-Specific LLMs and Autonomous Agent
-           - Developed 
+          name: "KakaoBank"
+          url: "https://kakaobank.com/"
+        date: "May 2024 - Present"
+        content: |-
+          Development of Finance-Specific LLMs and Autonomous Agent
+          - Developed in-house LLMs tailored to banking applications
+          - Developed Finance-Specific LLMs and Autonomous Agent
       - title: "AI Researcher"
         school:
           name: "Coxwave"
