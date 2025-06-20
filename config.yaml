@@ -238,6 +238,7 @@ params:
            - Built an AI Tutor and Assistant for quantum physics using continual pre-training and fine-tuning (SFT, DPO)
            - Built a unified model (Llama 3.1, 8B) with 81.1% accuracy on MCQ test sets, outperforming GPT-4o (63.7%)
            - Secured a $140k contract and delivered AI solutions under the AI Voucher program
+
           Research on Many-Shot Jailbreaking
            - Developed a comprehensive attack framework for many-shot scenarios
            - Analyzed long-context vulnerabilities in open-source LLMs
