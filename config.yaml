@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "/portfolio/yohan_241224.pdf"
+      url: "/portfolio/yohan_cv_250620.pdf"
       download: false
       newPage: true
     socialLinks:
@@ -155,12 +155,11 @@ params:
     title: "About Me"
     image: /portfolio/images/me.jpeg
     content: |-
-      I am a AI researcher at Coxwave, focusing on advancing large language models (LLMs).
-      Previously, I studied german linguistics and cognitive science at the Yonsei University.
-      My notable research achievement includes achieving 1st place in the Huggingface Open LLM Leaderboard.
-      My research interests involve a comprehensive exploration of instruction tuning,
-      considering aspects like data quality, quantity, diversity, and model scale, efficiency, and objectives.
-      As a passionate professional, I am committed to continually contributing to the future of AI and NLP.
+      I am an AI Research Engineer at KakaoBank, focusing on developing finance-specific large language models (LLMs) and autonomous agents.
+      Previously, I worked at Coxwave, WRTN Technologies, Riiid, and TUNiB, where I contributed to advancing LLMs and NLP technologies across various domains.
+      My notable achievements include 1st place on the Huggingface Open LLM Leaderboard and the Ministry of Science and ICT Minister's Award.
+      My research interests cover instruction tuning, model efficiency, and domain adaptation, with a particular emphasis on real-world applications in finance and education.
+      I am passionate about pushing the boundaries of AI and committed to shaping the future of language technologies.
 
 
     skills:
@@ -222,6 +221,35 @@ params:
     title: "Experiences"
     index: false
     items:
+      - title: "AI Research Engineer"
+        school:
+          name: "KakaoBank"
+          url: "https://kakaobank.com/"
+        date: "May 2025 - Present"
+        content: |-
+          Development of Finance-Specific LLMs and Autonomous Agent
+           - Developed a in-house LLMs tailored to banking applications
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
+      - title: "AI Researcher"
+        school:
+          name: "Coxwave"
+          url: "https://coxwave.com/"
+        date: "Jul 2024 - May 2025"
+        content: |-
+          Development of Domain-Specific LLMs for Quantum Physics
+           - Built an AI Tutor and Assistant for quantum physics using continual pre-training and fine-tuning (SFT, DPO)
+           - Built a unified model (Llama 3.1, 8B) with 81.1% accuracy on MCQ test sets, outperforming GPT-4o (63.7%)
+           - Secured a $140k contract and delivered AI solutions under the AI Voucher program
+          Research on Many-Shot Jailbreaking
+           - Developed a comprehensive attack framework for many-shot scenarios
+           - Analyzed long-context vulnerabilities in open-source LLMs
+        featuredLink:
+          enable: false
+          name: ""
+          url: ""
       - title: "AI Research Engineer (NLP Specialist)"
         school:
           name: "WRTN Technologies"
@@ -250,7 +278,7 @@ params:
 
           Automated Essay Scoring
           - Achieve state‐of‐the‐art on public essay scoring benchmarks
-          - Conduct “Bar exam” scoring which performs better than GPT‐4
+          - Conduct "Bar exam" scoring which performs better than GPT‐4
         featuredLink:
           enable: false
           name: "1st rank at Huggingface Open LLM Leaderboard"
@@ -267,13 +295,13 @@ params:
           - Operated a Kakaotalk‐based chatbot service
 
           AI Grand Challenge: Policy Support AI
-          - Awarded Ministry of Science and ICT Minister’s Award
+          - Awarded Ministry of Science and ICT Minister's Award
           - Orchestrated TableQA data collection with policy domain experts
           - Developed continual learning framework with OCR‐based parsing and additional table data
           - Developed an integrated QA system for processing texts, tables, and charts
         featuredLink:
           enable: false
-          name: "Awarded Ministry of Science and ICT Minister’s Award"
+          name: "Awarded Ministry of Science and ICT Minister's Award"
           url: "https://www.mk.co.kr/news/it/10609550"
 
   # Achievements
@@ -471,7 +499,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     email: yohan9612@naver.com
     btnName: Mail me
     # formspree:
