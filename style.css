@@ -479,6 +479,8 @@ a {
     box-shadow: var(--shadow-md);
     transition: var(--transition);
     border-left: 4px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .publication-card:hover {
@@ -507,6 +509,20 @@ a {
 .publication-desc {
     color: var(--text-secondary);
     font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.publication-link {
+    color: var(--primary-color);
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.publication-link:hover {
+    color: var(--secondary-color);
 }
 
 /* Projects Section */
