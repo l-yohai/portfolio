@@ -328,168 +328,162 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Story Completion Competition
-        content: Instruction fine-tuned (korean 13B lm) with diverse data augmentation, achieving 2nd place on public/private leaderboard in 3 days
-        image: /portfolio/images/story_completion_competition_thumbnail.png
-        featured:
-          # name: leaderboard
-          # link: https://corpus.korean.go.kr/taskOrdtm/taskLeaderBoard.do?taskOrdtmId=102&clCd=END_TASK&subMenuId=sub04
-        badges:
-          - "python"
-          - "pytorch"
-        modal: /portfolio/yohan_231201.pdf
-        links:
-          # - icon: fa fa-envelope
-          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          # - icon: fab fa-github
-          #   url: https://github.com/gurusabarish/hugo-profile
-          # - icon: fab fa-twitter
-          #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - icon: fas fa-external-link-alt
-            url: https://corpus.korean.go.kr/taskOrdtm/taskLeaderBoard.do?taskOrdtmId=102&clCd=END_TASK&subMenuId=sub04
-
-      - title: Achieved SOTA in KLUE Benchmark
-        content: |
-          - Implemented R‐BERT and Retrospective Reader models, and enhanced their structures and learning methods
-          - Achieved SOTA in TC, STS, RE, MRC, NLI tasks
-        image: /portfolio/images/klue_thumbnail.png
-        featured:
-          # name: Demo
-          # link: https://django-converter.herokuapp.com
+      - title: Finance-Specific LLMs and Autonomous Agent
+        content: |-
+          - Developed in-house LLMs tailored to banking applications at KakaoBank
+          - Created autonomous agents for finance domain tasks
+        image: /portfolio/images/projects/profile.png
         badges:
           - "python"
           - "pytorch"
           - "huggingface"
+          - "deepspeed"
         links:
-          - icon: fab fa-github
-            url: https://github.com/LostCow/KLUE
 
-      - title: Open Domain Question Answering Competition (Gold Medal)
+      - title: Quantum Physics AI Tutor
+        content: |-
+          - Built an AI Tutor and Assistant for quantum physics using continual pre-training and fine-tuning (SFT, DPO)
+          - Built a unified model (Llama 3.1, 8B) with 81.1% accuracy on MCQ test sets, outperforming GPT-4o (63.7%)
+          - Secured a $140k contract and delivered AI solutions under the AI Voucher program
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "llama"
+          - "sft"
+          - "dpo"
+        links:
+
+      - title: Many-Shot Jailbreaking Research
+        content: |-
+          - Developed a comprehensive attack framework for many-shot scenarios
+          - Analyzed long-context vulnerabilities in open-source LLMs
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "llm security"
+        links:
+
+      - title: LLM Agent Evaluation Benchmark
+        content: |-
+          - Designed and implemented a benchmark system for in-the-wild human-assistant dialogues
+          - Developed comprehensive evaluation framework for assessing the performance of human-assistant interactions in real-world scenarios
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "evaluation"
+        links:
+
+      - title: Huggingface Open LLM Leaderboard 1st Place
+        content: |-
+          - Achieved 1st place on the Huggingface Open LLM Leaderboard (Oct, 2023)
+          - Explored the effects of instruction tuning from data (quantity, quality, diversity) and model (scale, efficiency, objective) perspectives
+          - Implemented diverse optimization techniques (ZeRO, FSDP, and FlashAttention) for training/inference with single 8xA100 machine
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "huggingface"
+          - "zero"
+          - "fsdp"
+          - "flash attention"
+        links:
+          - icon: fas fa-external-link-alt
+            url: https://finance.yahoo.com/news/riiids-ai-model-ranks-1-135800579.html
+
+      - title: Automated Essay Scoring
+        content: |-
+          - Achieved state-of-the-art on public essay scoring benchmarks
+          - Conducted "Bar exam" scoring which performs better than GPT-4
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "nlp"
+        links:
+
+      - title: Korean Open-domain Chatbot Service
+        content: |-
+          - Directed dialogue data collection and quality filtering using advanced LLMs
+          - Developed an in-house Korean LM for multi-persona chatbot with self-collected datasets
+          - Operated a Kakaotalk-based chatbot service
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "korean nlp"
+          - "chatbot"
+        links:
+
+      - title: "AI Grand Challenge: Policy Support AI"
+        content: |-
+          - Awarded Ministry of Science and ICT Minister's Award (3rd Place)
+          - Orchestrated TableQA data collection with policy domain experts
+          - Developed continual learning framework with OCR-based parsing and additional table data
+          - Developed an integrated QA system for processing texts, tables, and charts
+        image: /portfolio/images/projects/profile.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "ocr"
+          - "tableqa"
+        links:
+          - icon: fas fa-external-link-alt
+            url: https://www.mk.co.kr/news/it/10609550
+
+      - title: Story Completion Competition (2nd Place)
+        content: |-
+          - Instruction fine-tuned Korean 13B LM with diverse data augmentation
+          - Achieved 2nd place on public/private leaderboard in 3 days
+        image: /portfolio/images/story_completion_competition_thumbnail.png
+        badges:
+          - "python"
+          - "pytorch"
+          - "instruction tuning"
+        modal: /portfolio/yohan_231201.pdf
+        links:
+          - icon: fas fa-external-link-alt
+            url: https://corpus.korean.go.kr/taskOrdtm/taskLeaderBoard.do?taskOrdtmId=102&clCd=END_TASK&subMenuId=sub04
+
+      - title: Open Domain Question Answering (Gold Medal)
         content: |-
           - Improved top-1 accuracy of document retrieval from 32% to 78% by hybrid retrieval techniques
           - Improved EM score of question answering from 62.7 to 79.9 by effective methods
         image: /portfolio/images/mrc_thumbnail.png
-        featured:
-          name: Watch More
-          link: https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/
         badges:
           - "python"
           - "pytorch"
           - "huggingface"
+          - "retrieval"
         links:
           - icon: fab fa-github
             url: https://github.com/l-yohai/Korean-MRC-Open-Domain-Question-Answering
-          # - icon: fas fa-blog
-          #   url: https://cheonggyemountain-sherpa.github.io/MRC-Open-Domain-Question-Answering/
 
-      - title: Relation Extraction Competition (Silver Medal)
+      - title: Korean CSAT LLM Evaluation
         content: |-
-          - Trained custom embeddings, layers, and loss function with diverse augmented dataset
-        image: /portfolio/images/re_thumbnail.png
-        featured:
-          name: Watch More
-          link: https://cheonggyemountain-sherpa.github.io/KLUE_RE/
-        badges:
-          - "python"
-          - "pytorch"
-          - "huggingface"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/l-yohai/korean-entity-relation-extraction
-          # - icon: fas fa-blog
-          #   url: https://cheonggyemountain-sherpa.github.io/KLUE_RE/
-
-      - title: Image Classification Competition Competition (Silver Medal)
-        content: |-
-          - Utilized multi-task learning and test time augmentation techniques
-        image: /portfolio/images/maskcompetition_thumbnail.png
-        featured:
-          name: Watch More
-          link: https://l-yohai.github.io/AI-Competition-and-planning-guide/
-        badges:
-          - "python"
-          - "pytorch"
-          - "huggingface"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/l-yohai/Mask-Image-Classification
-          # - icon: fas fa-blog
-          #   url: https://github.com/l-yohai/Boostcamp-AI-Tech/blob/main/pstage_1/planning_guide.md
-
-      - title: Korean College Scholastic Ability Test (CSAT)
-        content: |-
-          - Compared the performance of various LLMs in solving the 2024 CSAT
+          - Compared the performance of various LLMs in solving the 2024 Korean College Scholastic Ability Test
         image: /portfolio/images/csat_thumbnail.jpeg
-        featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
         badges:
           - "python"
           - "pytorch"
-          - "huggingface"
+          - "llm evaluation"
         links:
           - icon: fab fa-github
             url: https://github.com/l-yohai/suneung
 
-      - title: Daily Papers
+      - title: Daily Papers Auto-Translation
         content: |-
           - Developed a tool for auto-translating and summarizing Huggingface's daily papers into Korean using ChatGPT
         image: /portfolio/images/daily_papers_thumbnail.png
-        featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
         badges:
           - "python"
-          - "pytorch"
-          - "huggingface"
+          - "chatgpt"
+          - "translation"
         links:
           - icon: fab fa-github
             url: https://github.com/l-yohai/daily_papers_ko
-
-      - title: PFP Story Generation
-        content: |-
-          - Completed the story for 5,000 pfp characters using GPT-3
-        image: /portfolio/images/savetheweb3_thumbnail.png
-        featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
-        badges:
-          - "python"
-          - "pytorch"
-          - "huggingface"
-        links:
-          - icon: fas fa-external-link-alt
-            url: https://opensea.io/collection/savetheweb3
-
-      - title: "Look, Attend, and Generate Poem"
-        content: |-
-          - Developed a web service for generating poetry from user-uploaded photos
-        image: /portfolio/images/look_attend_and_generate_poem_thumbnail.png
-        featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
-        badges:
-          - "python"
-          - "pytorch"
-          - "huggingface"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/boostcampaitech2/final-project-level3-nlp-08
-
-      - title: Movie Review Rating Service
-        content: |-
-          - Developed a web service for auto-rating and archiving key movie reviews
-        image: /portfolio/images/movie_review_thumbnail.png
-        featured:
-          # name: Demo V2
-          # link: https://hugo-profile-2.netlify.app
-        badges:
-          - "python"
-          - "pytorch"
-          - "huggingface"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Gaepodong/Your-True-Review
 
   #Contact
   contact:
